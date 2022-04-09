@@ -1,5 +1,4 @@
-import type { IMove } from "dataforged/dist";
-import { SourceTitle } from "dataforged/dist";
+import type { IMove, SourceTitle } from "dataforged/dist";
 
 const move: IMove = {
   $id: "Moves / Adventure / XYZ",
@@ -7,7 +6,7 @@ const move: IMove = {
   Name: "XYZ",
   Text: "Blah blah blah.",
   Source: {
-    Title: SourceTitle.IronswornBonusAssets,
+    Title: "Ironsworn Assets" as SourceTitle,
   },
   Display: { Title: "XYZ" },
   Trigger: {

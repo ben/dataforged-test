@@ -2,14 +2,11 @@
     "compilerOptions": {
         "target": "es2018",
         "moduleResolution": "node",
-
-        // These are required to be able to import from dataforged at all
+        "outDir": "build",
 
         // Compile error if this isn't present:
         // ../dataforged/dist/utils/process_yaml/loadOracleData.d.ts:3:13 - error TS1192: Module '"fs"' has no default export.
         "allowSyntheticDefaultImports": true,
-
-        "outDir": "build"
     },
     "exclude": ["node_modules", "build"]
 }
