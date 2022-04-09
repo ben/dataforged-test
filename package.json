@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ben/dataforged-test/issues"
   },
-  "homepage": "https://github.com/ben/dataforged-test#readme"
+  "homepage": "https://github.com/ben/dataforged-test#readme",
+  "dependencies": {
+    "dataforged": "github:rsek/dataforged#5fc1e042c0dc6c989edd2a83b415abc64ac244c4"
+  }
 }
